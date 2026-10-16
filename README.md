@@ -1,4 +1,4 @@
-# Billetera UCO: Sistema Bancario Inteligente con OpenCode
+# Billetera UCO: Sistema Bancario con OpenCode
 
 
 El proyecto Billetera UCO consiste en un sistema de gestión bancaria enfocado en simular transacciones financieras como depósitos retiros cálculo de intereses y manejo de sobregiros mediante la aplicación de los principios de la programación orientada a objetos en Java
