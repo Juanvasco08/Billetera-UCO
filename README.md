@@ -1,21 +1,7 @@
-# 💳 Billetera Digital UCO - Sistema de Gestión Bancaria
+El proyecto Billetera UCO consiste en un sistema de gestión bancaria enfocado en simular transacciones financieras como depósitos retiros cálculo de intereses y manejo de sobregiros mediante la aplicación de los principios de la programación orientada a objetos en Java
 
-Proyecto académico desarrollado en Java aplicando los principios fundamentales de la Programación Orientada a Objetos (POO), integrando un entorno de asistencia y calidad configurado con **OpenCode**.
+La estructura del código fuente está dividida en clases donde Cuenta actúa como la clase abstracta principal que define las operaciones generales CuentaAhorros gestiona los rendimientos mensuales e impide saldos negativos CuentaCorriente permite el uso de cupos de sobregiro Cliente vincula al usuario con su producto bancario y Main ejecuta la simulación interactiva desde la consola
 
-## 🛠️ Arquitectura POO
-- **`Cuenta`**: Clase base abstracta que define el contrato de depósitos y retiros.
-- **`CuentaAhorros`**: Subclase con cálculo de rendimientos e intereses.
-- **`CuentaCorriente`**: Subclase con soporte para cupos de sobregiro.
-- **`Cliente`**: Modelo de dominio que encapsula la información del usuario y su cuenta asignada.
-- **`Main`**: Punto de entrada interactivo para pruebas de operaciones bancarias.
+El entorno de asistencia OpenCode apoya el desarrollo mediante una carpeta dedicada que organiza agentes especializados en auditoría transaccional y mentoría en control de versiones comandos de terminal para revisar el estado del código y habilidades que establecen las convenciones de estilo en Java y el flujo de trabajo en Git
 
-## 🤖 Entorno OpenCode
-El proyecto cuenta con una carpeta de configuración `.opencode` dividida en:
-- **`agents/`**: Agentes para auditoría financiera y mentoría en Git.
-- **`commands/`**: Comandos para la verificación de estado y revisión de commits.
-- **`skills/`**: Habilidades con las convenciones de Java finanzas y flujo de ramas UCO.
-
-## 🚀 Flujo de Trabajo
-Este repositorio sigue la regla de trabajo en dos ramas:
-- `development`: Rama activa de desarrollo y pruebas.
-- `main`: Rama de entregas estables.
+El control de versiones del repositorio se maneja bajo una estrategia de dos ramas donde la rama development se utiliza para agregar avances pruebas y modificaciones progresivas mientras que la rama main se reserva como el entorno estable que recibe las fusiones de código una vez validado
